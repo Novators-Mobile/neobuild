@@ -1,0 +1,9 @@
+.container-button{
+    display: flex;
+    gap: 10px;
+    .release-button{
+        padding: 10px 36px;
+        border: 2px solid #C8B0FE;
+        border-radius: 8px;
+    }
+}

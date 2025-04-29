@@ -1,0 +1,27 @@
+.list-release{
+
+    color: #FCFCFC;
+    .release-list{
+        width: 500px;
+        .release-item{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 21px 15px;
+            border: 2px solid #8B89A6;
+            border-radius: 8px;
+        }
+        .item-status{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            .status{
+                padding: 3px 6px;
+                border-radius: 8px;
+                &.error{
+                    background-color: #D8B118;
+                }
+            }
+        }
+    }
+}
