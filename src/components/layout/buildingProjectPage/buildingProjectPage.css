@@ -1,0 +1,75 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+  .building-project{
+    color: #FCFCFC;
+    max-width: 600px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #C8B0FE;
+    border-radius: 8px;
+    font-size: 16px;
+    option{
+        border-radius: 10px;
+    color: black
+    }
+  }
+  
+  .checkbox-group {
+    margin: 25px 0;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checkbox-group input {
+    margin-right: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .button {
+    padding: 10px 76px;
+    background-color: #C8B0FE;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .build-btn {
+    background-color: C8B0FE;
+    color: #FCFCFC;
+  }
+  
+  .build-btn:hover {
+    background-color: C8B0FE;
+    opacity: 0.7;
+  }
+  
+  .cancel-btn {
+    background-color: C8B0FE;
+    color: #FCFCFC;
+  }
+  
+  .cancel-btn:hover {
+    background-color: C8B0FE;
+    opacity: 0.7;
+  }
+  

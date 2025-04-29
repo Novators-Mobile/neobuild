@@ -1,0 +1,97 @@
+
+
+
+
+.home-page{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+
+.novators-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    & img{
+        width: 82px;
+        height: 82px;
+    }
+}
+
+.novators-title{
+    color: #FCFCFC;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.login-container {
+    padding: 20px;
+    color: white;
+    margin: auto;
+  }
+  
+  .login-form {
+    padding: 40px;
+    border-radius: 8px;
+    width: 573px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+    &.password{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 30px;
+      label{
+        margin: initial;
+      }
+    }
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 16px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #C8B0FE;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
