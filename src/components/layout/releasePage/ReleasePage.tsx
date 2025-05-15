@@ -17,7 +17,7 @@ const ReleasePage = () => {
               </button>
               <bu className='release-button transfer'>
                 Перенос
-              </bu
+              </bu>
           </div>
      < CommitComparison/>
       </section>
